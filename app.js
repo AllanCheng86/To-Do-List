@@ -9,7 +9,7 @@ app.use(express.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-allan:system@cluster0.vxtly.mongodb.net/todolistDB");
+mongoose.connect("REPLACE_WITH_YOUR_MONGODB_CONNECTION_URL");
 
 const itemSchema = ({
     name: String
